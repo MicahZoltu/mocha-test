@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const TestRPC = require("ethereumjs-testrpc");
+const solc = require("solc");
 
 describe("example", () => {
   it("first", (done) => setTimeout(() => assert.fail("first failure")));
